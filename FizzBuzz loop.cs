@@ -1,0 +1,39 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int FizzBuzzLoop = 1; FizzBuzzLoop <= 10/*if you change the number 10 to any number, the number you choose will be how far your sequence goes*/; FizzBuzzLoop++)
+        {
+            if (FizzBuzzLoop % 3 == 0 && FizzBuzzLoop % 5 == 0)
+            {
+                Console.WriteLine("FizzBuzz");
+            }
+            else if (FizzBuzzLoop % 3 == 0)
+            {
+                Console.WriteLine("Fizz");
+            }
+            else if (FizzBuzzLoop % 5 == 0)
+            {
+                Console.WriteLine("Buzz");
+            }
+            else
+            {
+                Console.WriteLine(FizzBuzzLoop);
+            }
+        }
+    }
+}
+
+/*This code will out put: 
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz*/
