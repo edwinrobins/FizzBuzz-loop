@@ -1,0 +1,19 @@
+for (int FizzBuzzLoop = 1; FizzBuzzLoop <= 10; FizzBuzzLoop++)
+{
+    if (FizzBuzzLoop % 3 == 0 && FizzBuzzLoop % 5 == 0)
+    {
+        Console.WriteLine("FizzBuzz");
+    }
+    else if (FizzBuzzLoop % 3 == 0)
+    {
+        Console.WriteLine("Fizz");
+    }
+    else if (FizzBuzzLoop % 5 == 0)
+    {
+        Console.WriteLine("Buzz");
+    }
+    else
+    {
+        Console.WriteLine(FizzBuzzLoop);
+    }
+}
